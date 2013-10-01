@@ -11,7 +11,7 @@ namespace MvcApplication1.Controllers
         public int PropiedadAndres { get; set; }
         public ActionResult Index()
         {
-            ViewBag.Message = "Modifique esta plantilla para poner en marcha su aplicación ASP.NET MVC.";
+            ViewBag.Message = "Hola, soy Andrecito.";
 
             return View();
         }

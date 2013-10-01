@@ -8,6 +8,7 @@ namespace MvcApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        public int PropiedadAndres { get; set; }
         public ActionResult Index()
         {
             ViewBag.Message = "Modifique esta plantilla para poner en marcha su aplicación ASP.NET MVC.";
@@ -26,6 +27,11 @@ namespace MvcApplication1.Controllers
         {
             ViewBag.Message = "Página de contacto.";
 
+            return View();
+        }
+
+        public ActionResult MetodoAndres()
+        {
             return View();
         }
     }

@@ -29,10 +29,5 @@ namespace MvcApplication1.Controllers
 
             return View();
         }
-
-        public ActionResult MetodoAndres()
-        {
-            return View();
-        }
     }
 }

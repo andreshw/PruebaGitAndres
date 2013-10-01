@@ -30,10 +30,12 @@ namespace MvcApplication1.Controllers
             return View();
         }
 
+
         public ActionResult MetodoAndres()
         {
             string prueba = "Texto de prueba";
             return View();
         }
+
     }
 }
